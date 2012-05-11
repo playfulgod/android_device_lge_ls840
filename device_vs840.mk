@@ -7,9 +7,9 @@ $(call inherit-product-if-exists, vendor/lge/vs840/vs840-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/lge/vs840/overlay
 
-
+LOCAL_PATH := device/lge/vs840
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := device/lge/vs840/kernel
+	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
 else
 	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
