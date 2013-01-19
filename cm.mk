@@ -1,5 +1,5 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/cm/config/cdma.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := ls840
@@ -15,4 +15,4 @@ PRODUCT_DEVICE := ls840
 PRODUCT_NAME := cm_ls840
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := ls840
-PRODUCT_MANUFACTURER := lge
+PRODUCT_MANUFACTURER := LGE

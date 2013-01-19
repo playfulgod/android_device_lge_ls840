@@ -4,7 +4,7 @@ USE_CAMERA_STUB := true
 -include vendor/lge/ls840/BoardConfigVendor.mk
 
 TARGET_NO_BOOTLOADER := true
-TARGET_BOARD_PLATFORM := unknown
+TARGET_BOARD_PLATFORM := msm8660
 TARGET_CPU_ABI := armeabi
 TARGET_BOOTLOADER_BOARD_NAME := ls840
 
