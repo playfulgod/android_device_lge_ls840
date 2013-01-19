@@ -1,4 +1,4 @@
- 
+
 /*
  * Copyright (C) 2007 The Android Open Source Project
  *
@@ -368,3 +368,4 @@ gr_pixel *gr_fb_data(void)
 {
     return (unsigned short *) gr_mem_surface.data;
 }
+
